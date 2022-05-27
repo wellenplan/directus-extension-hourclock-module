@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hourclock module index should define a module 1`] = `
+Object {
+  "icon": "pie_chart",
+  "id": "hourclock",
+  "name": "$hourclock.module.name",
+  "routes": Array [
+    Object {
+      "component": Object {
+        "name": "module",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "path": "",
+    },
+    Object {
+      "component": Object {
+        "name": "module",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "path": "/hourclock/:id",
+    },
+  ],
+}
+`;

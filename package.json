@@ -1,0 +1,30 @@
+{
+	"name": "@wellenplan/directus-extension-hourclock-module",
+	"version": "0.0.0",
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-custom-module"
+	],
+	"directus:extension": {
+		"type": "module",
+		"path": "dist/index.js",
+		"source": "src/index.ts",
+		"host": "^9.11.1"
+	},
+	"scripts": {
+		"test": "jest tests -c jest.config.js",
+		"build": "directus-extension build"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "9.11.1",
+		"@types/jest": "^27.5.1",
+		"@vue/test-utils": "^2.0.0",
+		"@vue/vue3-jest": "^28.0.0",
+		"@wellenplan/vue-hourclock-pie": "^0.1.7",
+		"jest-environment-jsdom": "^28.1.0",
+		"ts-jest": "^28.0.3",
+		"typescript": "^4.7.2",
+		"vue": "^3.2.33"
+	}
+}
