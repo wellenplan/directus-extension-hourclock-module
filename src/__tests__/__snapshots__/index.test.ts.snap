@@ -2,9 +2,9 @@
 
 exports[`hourclock module index should define a module 1`] = `
 Object {
+  "__name": "$hourclock.module.name",
   "icon": "pie_chart",
   "id": "hourclock",
-  "name": "$hourclock.module.name",
   "routes": Array [
     Object {
       "component": Object {
