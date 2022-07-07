@@ -21,7 +21,7 @@
 		"@types/jest": "^28.1.4",
 		"@vue/test-utils": "^2.0.2",
 		"@vue/vue3-jest": "^28.0.1",
-		"@wellenplan/vue-hourclock-pie": "^0.1.14",
+		"@wellenplan/vue-hourclock-pie": "^0.1.15",
 		"jest-environment-jsdom": "^28.1.2",
 		"ts-jest": "^28.0.5",
 		"typescript": "^4.7.4",
